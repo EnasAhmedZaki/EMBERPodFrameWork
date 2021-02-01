@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EMBERPodFramework'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'A short description of EMBERPodFramework. This pod to expose some of the EMBER App feature to commercial use'
     
     # This description is used to generate tags and improve search results.
@@ -26,22 +26,22 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'EnasAhmedZaki' => 'enas@embermed.com' }
     s.source           = { :git => 'https://github.com/EnasAhmedZaki/EMBERPodFramework.git', :tag => s.version.to_s }
-#s.source            = { :http => 'https://drive.google.com/file/d/1OfQnAe6aq5UX6mmehOBCM17BRb-ZJJfs/view?usp=sharing' }
+    #s.source            = { :http => 'https://drive.google.com/file/d/1RdmfmGftNPeXZFGAyijw_7HZabOorYv5/view?usp=sharing' }
 
 
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '11.0'
     
-    s.source_files = "EMBERPodFramework/**/*.{swift}"
-    s.exclude_files = "EMBERPodFramework/**/*.plist"
+    #s.source_files = "EMBERPodFramework/**/*.{swift}"
+    #s.exclude_files = "EMBERPodFramework/**/*.plist"
 
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'OpenTok'
     s.dependency 'Firebase'
-    s.dependency 'SendBirdSDK'
+    #s.dependency 'SendBirdSDK'
     s.dependency 'RxAlamofire'
     s.dependency 'ObjectMapper'
     s.dependency 'NotificationBannerSwift'
