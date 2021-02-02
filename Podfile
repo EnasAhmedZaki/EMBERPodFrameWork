@@ -9,7 +9,7 @@ target 'EMBERPodFramework' do
   # Pods for EMBERPodFramework
   pod 'OpenTok'
   pod 'Firebase'
-  #pod 'SendBirdSDK'
+  pod 'SendBirdSDK'
   pod 'RxAlamofire'
   pod 'ObjectMapper'
   pod 'NotificationBannerSwift'

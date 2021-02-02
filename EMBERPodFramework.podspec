@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
     # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'OpenTok'
     s.dependency 'Firebase'
-    #s.dependency 'SendBirdSDK'
+    s.dependency 'SendBirdSDK'
     s.dependency 'RxAlamofire'
     s.dependency 'ObjectMapper'
     s.dependency 'NotificationBannerSwift'
