@@ -4,7 +4,7 @@ import Alamofire
 public protocol loginDelegate {
     func getLoginData(login: LoginModel)
 }
-public class EMBERPod {
+open class EMBERPod {
     let disposeBag = DisposeBag()
     let delegate: loginDelegate? = nil
     
