@@ -1,0 +1,11 @@
+framework module EMBERPodFramework {
+  umbrella header "EMBERPodFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module EMBERPodFramework.Swift {
+    header "EMBERPodFramework-Swift.h"
+    requires objc
+}
