@@ -4,22 +4,23 @@ import Alamofire
 public protocol loginDelegate {
     func getLoginData(login: LoginModel)
 }
-open class EMBERPod {
+@objc
+public class EMBERPod: NSObject {
     let disposeBag = DisposeBag()
     let delegate: loginDelegate? = nil
     
-   public class var sharedInstance: EMBERPod {
+    @objc public class var sharedInstance: EMBERPod {
         struct Singleton {
             static let instance = EMBERPod.init()
         }
         return Singleton.instance
     }
 
-    public func temp() {
+    @objc public func temp() {
         print("hello wolrd")
     }
     
-    public func login(loginParameters: [String: Any]) {
+    @objc public func login(loginParameters: [String: Any]) {
         rx_loginToUserAccount(parameters: loginParameters).asObservable().subscribe(onNext: { (response) in
             if let d = self.delegate {
                 d.getLoginData(login: response)
