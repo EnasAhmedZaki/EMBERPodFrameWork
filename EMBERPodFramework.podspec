@@ -25,16 +25,20 @@ Pod::Spec.new do |s|
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'EnasAhmedZaki' => 'enas@embermed.com' }
+    
+    s.ios.deployment_target = '11.0'
+    s.ios.vendored_frameworks = 'EMBERPodFramework.framework'
+    
     #s.source           = { :git => 'https://github.com/EnasAhmedZaki/EMBERPodFramework.git', :tag => s.version.to_s }
     s.source            = { :http => 'https://drive.google.com/file/d/1RdmfmGftNPeXZFGAyijw_7HZabOorYv5/view?usp=sharing' }
 
 
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
-    s.ios.deployment_target = '11.0'
     
+
     #s.source_files = "EMBERPodFramework/**/*.{swift}"
-    #s.exclude_files = "EMBERPodFramework/**/*.plist"
+    s.exclude_files = "EMBERPodFramework/**/*.plist"
 
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
