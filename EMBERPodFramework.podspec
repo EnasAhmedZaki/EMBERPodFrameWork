@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
     
 
     #s.source_files = "EMBERPodFramework/**/*.{swift}"
-    s.exclude_files = "EMBERPodFramework/**/*.plist"
+    #s.exclude_files = "EMBERPodFramework/**/*.plist"
 
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
@@ -55,8 +55,8 @@ Pod::Spec.new do |s|
     s.dependency 'WXImageCompress', '~> 0.1.1'
     s.dependency 'SkyFloatingLabelTextField'
     s.dependency 'RxCocoa'
-    s.swift_version    = '5.0'
-    s.platform         = :ios, "11.0"
-    s.static_framework = true
+    #s.swift_version    = '5.0'
+    #s.platform         = :ios, "11.0"
+    #s.static_framework = true
     
 end
