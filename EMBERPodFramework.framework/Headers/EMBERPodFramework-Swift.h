@@ -188,6 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 @import SkyFloatingLabelTextField;
 @import UIKit;
 #endif
@@ -207,6 +208,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
+
+SWIFT_CLASS("_TtC17EMBERPodFramework8EMBERPod")
+@interface EMBERPod : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) EMBERPod * _Nonnull sharedInstance;)
++ (EMBERPod * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+- (void)temp;
+- (void)loginWithLoginParameters:(NSDictionary<NSString *, id> * _Nonnull)loginParameters;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 @interface SkyFloatingLabelTextField (SWIFT_EXTENSION(EMBERPodFramework))

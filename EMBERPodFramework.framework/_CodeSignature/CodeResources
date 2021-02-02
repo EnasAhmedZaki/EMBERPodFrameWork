@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/EMBERPodFramework-Swift.h</key>
 		<data>
-		v7HYvYsGqyN9ut7749kzrLGBC3o=
+		2R2/4BUCPuOjOtH7jtsgaBmaE6E=
 		</data>
 		<key>Headers/EMBERPodFramework.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		cX9f7SPaOrDNQghg8z3seqZBhsA=
+		kK3tkDQxUpFdtxBrYvpSTGWpRBE=
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		cX9f7SPaOrDNQghg8z3seqZBhsA=
+		kK3tkDQxUpFdtxBrYvpSTGWpRBE=
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2+HmjyQa+DbOKUX4G6Yjs+vzLxg=
+		akhOSwSJP++y5kV0GNPY6yH+0dU=
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		2+HmjyQa+DbOKUX4G6Yjs+vzLxg=
+		akhOSwSJP++y5kV0GNPY6yH+0dU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BvMNG999+Xo61z3Bytp5Ae25KZNVZLL/drCGROckA8Q=
+			h9UGbTukkcfQx7/Mos12toWrDsN5YMlOusvxN9dteko=
 			</data>
 		</dict>
 		<key>Headers/EMBERPodFramework.h</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GQ8mY4WAllPjw/hfkW5oIEN3fJ/1f1e+w0T+C5RMog=
+			1piywdFm6B1bBOd5QJ14uMqXGcI+Ebxct/IxnE84b4E=
 			</data>
 		</dict>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GQ8mY4WAllPjw/hfkW5oIEN3fJ/1f1e+w0T+C5RMog=
+			1piywdFm6B1bBOd5QJ14uMqXGcI+Ebxct/IxnE84b4E=
 			</data>
 		</dict>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8mdSpMSSHc+VPYiO6Lf9yrFhmpiSR6TxuCZ+F4fl584=
+			OD087WCm9RCyFfPDMkaNWsD3Q0KNwCwBbew5hMDk+0E=
 			</data>
 		</dict>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -139,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8mdSpMSSHc+VPYiO6Lf9yrFhmpiSR6TxuCZ+F4fl584=
+			OD087WCm9RCyFfPDMkaNWsD3Q0KNwCwBbew5hMDk+0E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
