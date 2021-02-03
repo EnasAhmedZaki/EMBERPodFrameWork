@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EMBERPodFramework'
-    s.version          = '0.1.3'
+    s.version          = '0.1.4'
     s.summary          = 'A short description of EMBERPodFramework. This pod to expose some of the EMBER App feature to commercial use'
     
     # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
     
     #s.source           = { :git => 'https://github.com/EnasAhmedZaki/EMBERPodFramework.git', :tag => s.version.to_s }
     s.source            = { :http => 'https://drive.google.com/file/d/1RdmfmGftNPeXZFGAyijw_7HZabOorYv5/view?usp=sharing' }
+    s.resource = 'EMBERPodFramework/VideoCall/VideoResources/*.storyboard'
 
 
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
