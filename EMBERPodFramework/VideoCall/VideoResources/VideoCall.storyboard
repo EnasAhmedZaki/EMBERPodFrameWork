@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,7 +21,7 @@
         <!--Video Call View Controller-->
         <scene sceneID="oh1-S4-Tru">
             <objects>
-                <viewController storyboardIdentifier="VideoCallViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8o1-5Y-nAH" customClass="VideoCallViewController" customModule="Ember_patient" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VideoCallViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8o1-5Y-nAH" customClass="VideoCallViewController" customModule="EMBERPodFramework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ASx-34-5u0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,7 +134,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scr-nz-Bcc">
-                                        <rect key="frame" x="169" y="43" width="37.5" height="21.5"/>
+                                        <rect key="frame" x="171" y="43" width="33" height="15.5"/>
                                         <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -146,7 +145,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpX-d3-Bxm">
-                                        <rect key="frame" x="211.5" y="42" width="28" height="28"/>
+                                        <rect key="frame" x="209" y="39" width="28" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="28" id="fjD-3x-kqT"/>
                                             <constraint firstAttribute="height" constant="28" id="uHM-s3-GEt"/>
@@ -154,7 +153,7 @@
                                         <state key="normal" image="timerVideoIcon"/>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="hHT-Xo-t94">
-                                        <rect key="frame" x="272.5" y="116.5" width="82.5" height="20"/>
+                                        <rect key="frame" x="272.5" y="119.5" width="82.5" height="14"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -165,8 +164,8 @@
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="9at-Ey-avH">
                                         <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
                                     </activityIndicatorView>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="pqc-C0-omY">
-                                        <rect key="frame" x="303" y="116" width="20" height="20"/>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="pqc-C0-omY">
+                                        <rect key="frame" x="304" y="116.5" width="20" height="20"/>
                                     </activityIndicatorView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -244,7 +243,7 @@
         <!--Triage Call On Other Device View Controller-->
         <scene sceneID="Qfq-y1-roh">
             <objects>
-                <viewController storyboardIdentifier="TriageCallOnOtherDeviceViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aNR-cm-Jf0" customClass="TriageCallOnOtherDeviceViewController" customModule="Ember_patient" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TriageCallOnOtherDeviceViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aNR-cm-Jf0" customClass="TriageCallOnOtherDeviceViewController" customModule="EMBERPodFramework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2VM-2D-MRb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,7 +351,7 @@
         <!--Triage Request View Controller-->
         <scene sceneID="9Tp-48-c6Q">
             <objects>
-                <viewController storyboardIdentifier="TriageRequestViewController" id="rQE-5A-6km" customClass="TriageRequestViewController" customModule="Ember_patient" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TriageRequestViewController" id="rQE-5A-6km" customClass="TriageRequestViewController" customModule="EMBERPodFramework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V1N-cj-hQM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
