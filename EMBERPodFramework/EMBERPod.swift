@@ -38,6 +38,25 @@ public class EMBERPod: NSObject {
         }).disposed(by: disposeBag)
     }
     
+    @objc public func getVideoCall(sessionID: String, patientToken: String, providerName: String, providerProfession: String, seconds: Int) -> UIViewController {
+        print("getVideoCall")
+        
+        print(UIStoryboard.init(name: "VideoCall", bundle: nil).instantiateViewController(withIdentifier: "VideoCallViewController"))
+        
+        let videoCallVC = UIStoryboard.init(name: "VideoCall", bundle: nil).instantiateViewController(withIdentifier: "VideoCallViewController") as! VideoCallViewController
+        
+        videoCallVC.kSessionId = sessionID
+        videoCallVC.kToken = patientToken
+        
+        videoCallVC.videoTitle = providerName
+        videoCallVC.videoSubTitle = providerProfession
+        print("1st seconds")
+        print(seconds)
+        videoCallVC.seconds = seconds
+        
+        return videoCallVC as UIViewController
+    }
+    
     func rx_loginToUserAccount(parameters: [String: Any]) -> Observable<LoginModel> {
         
         let url: URL = URL.init(string: "https://api-dev.embermed.com/api/v4/patient/login")!

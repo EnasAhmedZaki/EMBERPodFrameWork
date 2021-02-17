@@ -21,7 +21,7 @@ let kWidgetWidth = 320
 
 class VideoCallViewController: UIViewController {
     
-    var kApiKey = EnvironmentConfiguration.sharedInstance.OpenTokAPIKey
+    var kApiKey = "46306432"//EnvironmentConfiguration.sharedInstance.OpenTokAPIKey
     
     // Replace with your generated session ID
     var kSessionId = ""

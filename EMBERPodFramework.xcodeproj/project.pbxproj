@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E24EAAD25DD2A48009D0DAF /* EMBERPod.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9EA7455525C8BD4000755364 /* EMBERPod.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EA744ED25C8B8B700755364 /* EMBERPodFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA744EB25C8B8B700755364 /* EMBERPodFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EA7452525C8BC7A00755364 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7452425C8BC7A00755364 /* ConnectionManager.swift */; };
 		9EA7452E25C8BCDF00755364 /* VideoCallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7452D25C8BCDF00755364 /* VideoCallManager.swift */; };
@@ -210,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EA744ED25C8B8B700755364 /* EMBERPodFramework.h in Headers */,
+				9E24EAAD25DD2A48009D0DAF /* EMBERPod.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
