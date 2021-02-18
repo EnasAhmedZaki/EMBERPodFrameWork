@@ -4,17 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		FQ5yG2GTq1N2CqJ3vao45buHJTo=
-		</data>
-		<key>Environment.plist</key>
-		<data>
-		6Z76G7/Tm61dj5Po3pr0C12LX74=
-		</data>
 		<key>Headers/EMBERPod.swift</key>
 		<data>
-		x5crx4qEMtE+OPaJGe+x4hy2iIY=
+		+WDfmx9IKrlubpU0ID6dGA0gr4o=
 		</data>
 		<key>Headers/EMBERPodFramework-Swift.h</key>
 		<data>
@@ -30,11 +22,11 @@
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		wwWJbMFfu5aqneEZ7fVLFSndQkg=
+		R70VOAlhJlnixnXRfS4HY6NTFBU=
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		wwWJbMFfu5aqneEZ7fVLFSndQkg=
+		R70VOAlhJlnixnXRfS4HY6NTFBU=
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -59,18 +51,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Environment.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ORcOE4xz/V50PjVYXO+GQYK97c/uTN/lk+b/dsR4KCo=
-			</data>
-		</dict>
 		<key>Headers/EMBERPod.swift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yzvvh49KjjfjycvdC2n/udOe8S7SJVMpbO3tFN1Dm3E=
+			NIX2fDo1XLEGyx+fhPkyxxGqAJdFRrWcn7xD/Lpb3GI=
 			</data>
 		</dict>
 		<key>Headers/EMBERPodFramework-Swift.h</key>
@@ -91,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8GjW1BH4YI10Mb1FxGNX/qwhGEQ2OR4EG13YxVq4fjg=
+			gf/oTy734lq86a6iACMQVa6hBpyCQ9GCl/KZ6K/JwNg=
 			</data>
 		</dict>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8GjW1BH4YI10Mb1FxGNX/qwhGEQ2OR4EG13YxVq4fjg=
+			gf/oTy734lq86a6iACMQVa6hBpyCQ9GCl/KZ6K/JwNg=
 			</data>
 		</dict>
 		<key>Modules/EMBERPodFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>

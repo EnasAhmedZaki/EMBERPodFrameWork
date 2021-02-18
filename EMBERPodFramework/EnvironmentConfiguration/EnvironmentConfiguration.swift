@@ -136,7 +136,8 @@ extension EnvironmentConfiguration {
     func readFromPlistWithKey (_ plist: String, moduleKey paramKey: String, valueAtKey paramValueAtKeyKey: String) -> String {
 
         var plistValueAtKey: String = ""
-        if let path = Bundle.main.path(forResource: plist, ofType: "plist") {
+        let bundleName = Bundle.init(identifier: "TestResourceBundle")
+        if let path = bundleName?.path(forResource: plist, ofType: "plist") {
             let plistDict = NSDictionary(contentsOfFile: path)
             if let plistModuleDict = (plistDict?.object(forKey: paramKey)) as? NSDictionary {
                 plistValueAtKey = plistModuleDict.value(forKey: paramValueAtKeyKey) as? String ?? ""
@@ -149,7 +150,9 @@ extension EnvironmentConfiguration {
     func readArrayFromPlistWithKey (_ plist: String, moduleKey paramKey: String, valueAtKey paramValueAtKeyKey: String) -> [AnyObject] {
 
         var plistValueAtKey: [AnyObject] = []
-        if let path = Bundle.main.path(forResource: plist, ofType: "plist") {
+        
+        let bundleName = Bundle.init(identifier: "TestResourceBundle")
+        if let path = bundleName?.path(forResource: plist, ofType: "plist") {
             let plistDict = NSDictionary(contentsOfFile: path)
             if let plistModuleDict = (plistDict?.object(forKey: paramKey)) as? NSDictionary {
                 plistValueAtKey = plistModuleDict.value(forKey: paramValueAtKeyKey) as? [AnyObject] ?? []
