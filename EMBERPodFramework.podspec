@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = 'EMBERPodFramework.framework'
     
     #s.source           = { :git => 'https://github.com/EnasAhmedZaki/EMBERPodFramework.git', :tag => s.version.to_s }
-    s.source            = { :http => 'https://drive.google.com/file/d/1kj1U0LBojrEkF9VdX3ol_yvDauDzp_Nm/view?usp=sharing' }
+    s.source            = { :http => 'https://drive.google.com/file/d/1Qkiu1wTOb72PmnLfGsp_eCYQeAPKr_LH/view?usp=sharing' }
     #s.resource = 'EMBERPodFramework/VideoCall/VideoResources/*.storyboard'
 
 
