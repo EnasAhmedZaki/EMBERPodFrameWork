@@ -27,6 +27,8 @@
 		9EA7455625C8BD4000755364 /* EMBERPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7455525C8BD4000755364 /* EMBERPod.swift */; };
 		B33C6B0125DEB7C1001705D9 /* VideoCall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7453125C8BCED00755364 /* VideoCall.storyboard */; };
 		B33C6B2025DEBDB8001705D9 /* Environment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7454F25C8BD3400755364 /* Environment.plist */; };
+		B37BCACE25E2923400B454A5 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BCACC25E2923400B454A5 /* NewViewController.swift */; };
+		B37BCACF25E2923400B454A5 /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B37BCACD25E2923400B454A5 /* NewViewController.xib */; };
 		E5DA7CE419B6AED956236DF8 /* Pods_EMBERPodFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7033F488B4368CE890B494FC /* Pods_EMBERPodFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		9EA7455525C8BD4000755364 /* EMBERPod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMBERPod.swift; sourceTree = "<group>"; };
 		B33C6AF925DEB796001705D9 /* TestResourceBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestResourceBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33C6AFB25DEB796001705D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37BCACC25E2923400B454A5 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		B37BCACD25E2923400B454A5 /* NewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				9EA7455525C8BD4000755364 /* EMBERPod.swift */,
+				B37BCACC25E2923400B454A5 /* NewViewController.swift */,
+				B37BCACD25E2923400B454A5 /* NewViewController.xib */,
 				9EA7452C25C8BCD000755364 /* VideoCall */,
 				9EA7452B25C8BCA800755364 /* Lang */,
 				9EA7452A25C8BCA600755364 /* LiveChat */,
@@ -325,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37BCACF25E2923400B454A5 /* NewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +378,7 @@
 			files = (
 				9EA7455125C8BD3400755364 /* EnvironmentConfiguration.swift in Sources */,
 				9EA7455325C8BD3400755364 /* Logging.swift in Sources */,
+				B37BCACE25E2923400B454A5 /* NewViewController.swift in Sources */,
 				9EA7454B25C8BD1C00755364 /* StringsExtension.swift in Sources */,
 				9EA7453825C8BCF900755364 /* L102Language.swift in Sources */,
 				9EA7454025C8BD1300755364 /* LoginModel.swift in Sources */,
