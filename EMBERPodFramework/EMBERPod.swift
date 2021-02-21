@@ -22,6 +22,11 @@ public class EMBERPod: NSObject {
         print(EnvironmentConfiguration.sharedInstance.FirebaseDBName)
     }
     
+    @objc public func getNibFile() -> [Any]? {
+        print("hello nib")
+        return Bundle(for: NewViewController.self).loadNibNamed("\(NewViewController.self)", owner: self, options: .none)
+    }
+    
     @objc public func login(loginParameters: [String: Any]) {
         rx_loginToUserAccount(parameters: loginParameters).asObservable().subscribe(onNext: { (response) in
             if let d = self.delegate {
@@ -42,11 +47,11 @@ public class EMBERPod: NSObject {
     @objc public func getVideoCall(sessionID: String, patientToken: String, providerName: String, providerProfession: String, seconds: Int) -> UIViewController {
         print("getVideoCall")
         
-        let bundleName = Bundle.init(identifier: "TestResourceBundle")
+//        let bundleName = Bundle.init(identifier: "TestResourceBundle")
         
-        print(UIStoryboard.init(name: "VideoCall", bundle: bundleName).instantiateViewController(withIdentifier: "VideoCallViewController"))
+        print(UIStoryboard.init(name: "VideoCall", bundle: nil).instantiateViewController(withIdentifier: "VideoCallViewController"))
         
-        let videoCallVC = UIStoryboard.init(name: "VideoCall", bundle: bundleName).instantiateViewController(withIdentifier: "VideoCallViewController") as! VideoCallViewController
+        let videoCallVC = UIStoryboard.init(name: "VideoCall", bundle: nil).instantiateViewController(withIdentifier: "VideoCallViewController") as! VideoCallViewController
         
         videoCallVC.kSessionId = sessionID
         videoCallVC.kToken = patientToken

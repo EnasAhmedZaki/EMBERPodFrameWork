@@ -25,22 +25,12 @@
 		9EA7455125C8BD3400755364 /* EnvironmentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7454E25C8BD3300755364 /* EnvironmentConfiguration.swift */; };
 		9EA7455325C8BD3400755364 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7455025C8BD3400755364 /* Logging.swift */; };
 		9EA7455625C8BD4000755364 /* EMBERPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7455525C8BD4000755364 /* EMBERPod.swift */; };
-		B33C6B0125DEB7C1001705D9 /* VideoCall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7453125C8BCED00755364 /* VideoCall.storyboard */; };
-		B33C6B2025DEBDB8001705D9 /* Environment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7454F25C8BD3400755364 /* Environment.plist */; };
 		B37BCACE25E2923400B454A5 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BCACC25E2923400B454A5 /* NewViewController.swift */; };
 		B37BCACF25E2923400B454A5 /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B37BCACD25E2923400B454A5 /* NewViewController.xib */; };
+		B3DD3D6425E2BE1900A7106C /* VideoCall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7453125C8BCED00755364 /* VideoCall.storyboard */; };
+		B3DD3D6625E2BE3200A7106C /* Environment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7454F25C8BD3400755364 /* Environment.plist */; };
 		E5DA7CE419B6AED956236DF8 /* Pods_EMBERPodFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7033F488B4368CE890B494FC /* Pods_EMBERPodFramework.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B33C6B0625DEB8AA001705D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9EA744DF25C8B8B700755364 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B33C6AF825DEB796001705D9;
-			remoteInfo = TestResourceBundle;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7033F488B4368CE890B494FC /* Pods_EMBERPodFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMBERPodFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,8 +57,6 @@
 		9EA7454F25C8BD3400755364 /* Environment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Environment.plist; sourceTree = "<group>"; };
 		9EA7455025C8BD3400755364 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 		9EA7455525C8BD4000755364 /* EMBERPod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMBERPod.swift; sourceTree = "<group>"; };
-		B33C6AF925DEB796001705D9 /* TestResourceBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestResourceBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B33C6AFB25DEB796001705D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B37BCACC25E2923400B454A5 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		B37BCACD25E2923400B454A5 /* NewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,13 +67,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5DA7CE419B6AED956236DF8 /* Pods_EMBERPodFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B33C6AF625DEB796001705D9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				9EA744EA25C8B8B700755364 /* EMBERPodFramework */,
-				B33C6AFA25DEB796001705D9 /* TestResourceBundle */,
 				9EA744E925C8B8B700755364 /* Products */,
 				13F7E2C30874A422AE1E349A /* Pods */,
 				93F8AB8C30EBCBFE9929FB3E /* Frameworks */,
@@ -124,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				9EA744E825C8B8B700755364 /* EMBERPodFramework.framework */,
-				B33C6AF925DEB796001705D9 /* TestResourceBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,14 +209,6 @@
 			path = ChatResources;
 			sourceTree = "<group>";
 		};
-		B33C6AFA25DEB796001705D9 /* TestResourceBundle */ = {
-			isa = PBXGroup;
-			children = (
-				B33C6AFB25DEB796001705D9 /* Info.plist */,
-			);
-			path = TestResourceBundle;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -266,29 +237,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				B33C6B0725DEB8AA001705D9 /* PBXTargetDependency */,
 			);
 			name = EMBERPodFramework;
 			productName = EMBERPodFramework;
 			productReference = 9EA744E825C8B8B700755364 /* EMBERPodFramework.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		B33C6AF825DEB796001705D9 /* TestResourceBundle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B33C6AFE25DEB796001705D9 /* Build configuration list for PBXNativeTarget "TestResourceBundle" */;
-			buildPhases = (
-				B33C6AF525DEB796001705D9 /* Sources */,
-				B33C6AF625DEB796001705D9 /* Frameworks */,
-				B33C6AF725DEB796001705D9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TestResourceBundle;
-			productName = TestResourceBundle;
-			productReference = B33C6AF925DEB796001705D9 /* TestResourceBundle.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -301,9 +254,6 @@
 					9EA744E725C8B8B700755364 = {
 						CreatedOnToolsVersion = 12.3;
 						LastSwiftMigration = 1230;
-					};
-					B33C6AF825DEB796001705D9 = {
-						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -321,7 +271,6 @@
 			projectRoot = "";
 			targets = (
 				9EA744E725C8B8B700755364 /* EMBERPodFramework */,
-				B33C6AF825DEB796001705D9 /* TestResourceBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -331,16 +280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DD3D6425E2BE1900A7106C /* VideoCall.storyboard in Resources */,
+				B3DD3D6625E2BE3200A7106C /* Environment.plist in Resources */,
 				B37BCACF25E2923400B454A5 /* NewViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B33C6AF725DEB796001705D9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B33C6B2025DEBDB8001705D9 /* Environment.plist in Resources */,
-				B33C6B0125DEB7C1001705D9 /* VideoCall.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,22 +338,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33C6AF525DEB796001705D9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B33C6B0725DEB8AA001705D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B33C6AF825DEB796001705D9 /* TestResourceBundle */;
-			targetProxy = B33C6B0625DEB8AA001705D9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9EA744EE25C8B8B700755364 /* Debug */ = {
@@ -466,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -524,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -589,42 +516,6 @@
 			};
 			name = Release;
 		};
-		B33C6AFC25DEB796001705D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2RTC5LA229;
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = TestResourceBundle/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = elabd.TestResourceBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		B33C6AFD25DEB796001705D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2RTC5LA229;
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = TestResourceBundle/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = elabd.TestResourceBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -642,15 +533,6 @@
 			buildConfigurations = (
 				9EA744F125C8B8B700755364 /* Debug */,
 				9EA744F225C8B8B700755364 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B33C6AFE25DEB796001705D9 /* Build configuration list for PBXNativeTarget "TestResourceBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B33C6AFC25DEB796001705D9 /* Debug */,
-				B33C6AFD25DEB796001705D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
