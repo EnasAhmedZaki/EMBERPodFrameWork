@@ -215,7 +215,7 @@ SWIFT_CLASS("_TtC17EMBERPodFramework8EMBERPod")
 @interface EMBERPod : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) EMBERPod * _Nonnull sharedInstance;)
 + (EMBERPod * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
-- (void)temp;
+- (NSArray * _Nullable)getNibFile SWIFT_WARN_UNUSED_RESULT;
 - (void)loginWithLoginParameters:(NSDictionary<NSString *, id> * _Nonnull)loginParameters;
 - (UIViewController * _Nonnull)getVideoCallWithSessionID:(NSString * _Nonnull)sessionID patientToken:(NSString * _Nonnull)patientToken providerName:(NSString * _Nonnull)providerName providerProfession:(NSString * _Nonnull)providerProfession seconds:(NSInteger)seconds SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

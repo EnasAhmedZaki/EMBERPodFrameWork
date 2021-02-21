@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EMBERPodFramework'
-    s.version          = '0.1.8'
+    s.version          = '0.1.9'
     s.summary          = 'A short description of EMBERPodFramework. This pod to expose some of the EMBER App feature to commercial use'
     
     # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = 'EMBERPodFramework.framework'
     
     #s.source           = { :git => 'https://github.com/EnasAhmedZaki/EMBERPodFramework.git', :tag => s.version.to_s }
-    s.source            = { :http => 'https://drive.google.com/file/d/1b3ZlHTjS5dQOWom8s9iDSbAaqeLfBi7A/view?usp=sharing' }
+    s.source            = { :http => 'https://drive.google.com/file/d/1roLDjc-ZZCnAwLxRoGyJzRYPlVirtUAj/view?usp=sharing' }
     s.resource = 'EMBERPodFramework/TestResourceBundle.bundle'
 
 

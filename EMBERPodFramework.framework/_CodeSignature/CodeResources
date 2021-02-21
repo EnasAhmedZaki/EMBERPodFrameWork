@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Environment.plist</key>
+		<data>
+		6Z76G7/Tm61dj5Po3pr0C12LX74=
+		</data>
 		<key>Headers/EMBERPod.swift</key>
 		<data>
-		+WDfmx9IKrlubpU0ID6dGA0gr4o=
+		/uXXi3wPqUg1/8bpLze6mHFpZXQ=
 		</data>
 		<key>Headers/EMBERPodFramework-Swift.h</key>
 		<data>
-		6D5L3HK9rBmCyLli2gPb7PD7jCY=
+		v1N9Uim3W9l3fEtW8C4fGprpZpk=
 		</data>
 		<key>Headers/EMBERPodFramework.h</key>
 		<data>
@@ -18,31 +22,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EGRQX/zyqsqCzs/alKwkIZKz9tg=
+		M0nOJo8pCbRQwmm/wdQYPBavo5E=
 		</data>
-		<key>Modules/EMBERPodFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Rb4VEFxcZ2+cFNbrbR0GOU0ob0Y=
+		3SJcWT8a97OZCNzyZRKjd6OkQs0=
 		</data>
-		<key>Modules/EMBERPodFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		Rb4VEFxcZ2+cFNbrbR0GOU0ob0Y=
+		3SJcWT8a97OZCNzyZRKjd6OkQs0=
 		</data>
-		<key>Modules/EMBERPodFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bduvYLw2KJ9XI4OQShkoTTB+NnA=
+		QKZL7lt7dWcn0pOvi96A0borkTs=
 		</data>
-		<key>Modules/EMBERPodFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Q6fMlo05d0vgB2hVuya3ah8KscM=
+		wxVqL4dZL++Wnc4219kohsyl1Q0=
 		</data>
-		<key>Modules/EMBERPodFramework.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		bduvYLw2KJ9XI4OQShkoTTB+NnA=
+		QKZL7lt7dWcn0pOvi96A0borkTs=
 		</data>
-		<key>Modules/EMBERPodFramework.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Q6fMlo05d0vgB2hVuya3ah8KscM=
+		wxVqL4dZL++Wnc4219kohsyl1Q0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,23 +54,58 @@
 		</data>
 		<key>NewViewController.nib</key>
 		<data>
-		hbHD+iFgkzSaJZ2hg2rtDWREjuA=
+		DpSiBR3BLJ6US0SakkQPHoN6GoA=
+		</data>
+		<key>VideoCall.storyboardc/8o1-5Y-nAH-view-ASx-34-5u0.nib</key>
+		<data>
+		84vyFbHguuG68T/HnvUWffQlg5U=
+		</data>
+		<key>VideoCall.storyboardc/Info.plist</key>
+		<data>
+		JFjfckryAcKrfGN7xXgDk02J2jU=
+		</data>
+		<key>VideoCall.storyboardc/TriageCallOnOtherDeviceViewController.nib</key>
+		<data>
+		r4noeI8Y2ByVdW5aJ+iwnZh5ohE=
+		</data>
+		<key>VideoCall.storyboardc/TriageRequestViewController.nib</key>
+		<data>
+		WZmTmAoKllA5eD+JJkHl5qLJ0yI=
+		</data>
+		<key>VideoCall.storyboardc/VideoCallViewController.nib</key>
+		<data>
+		g1G59vdUEnwxyfWqtgugWL5w1xA=
+		</data>
+		<key>VideoCall.storyboardc/aNR-cm-Jf0-view-2VM-2D-MRb.nib</key>
+		<data>
+		UDwEu7bazxp17PIzlNKOIRhCbvM=
+		</data>
+		<key>VideoCall.storyboardc/rQE-5A-6km-view-V1N-cj-hQM.nib</key>
+		<data>
+		614I8GoiBV5bKgOKWOJmu5DvroQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Environment.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ORcOE4xz/V50PjVYXO+GQYK97c/uTN/lk+b/dsR4KCo=
+			</data>
+		</dict>
 		<key>Headers/EMBERPod.swift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NIX2fDo1XLEGyx+fhPkyxxGqAJdFRrWcn7xD/Lpb3GI=
+			XUZD3jRqWxf8DnFitMKM1pyJvzplFh2aDu6fivrgWpo=
 			</data>
 		</dict>
 		<key>Headers/EMBERPodFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lf/0JhzW0dals8hjo2IiTdxxNA5VYHYj3sX+cpjYwKU=
+			qnB/oX4N5MKvj3ycZPmWIQ+u9VdqfVuhOALyFiTcSG8=
 			</data>
 		</dict>
 		<key>Headers/EMBERPodFramework.h</key>
@@ -76,46 +115,46 @@
 			mZUwYJ1ey5gjpXkDVI6qOV7t4wx+r0aT3OlL8ddXRys=
 			</data>
 		</dict>
-		<key>Modules/EMBERPodFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R0hDm9EDi8Wo9R4Bn3ISub14/6+YNY/ydASYwHWVFZ4=
+			aglGXTYQi4aPmJYu6XhslPM8FUNZwOOcpehIGccTZ/A=
 			</data>
 		</dict>
-		<key>Modules/EMBERPodFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R0hDm9EDi8Wo9R4Bn3ISub14/6+YNY/ydASYwHWVFZ4=
+			aglGXTYQi4aPmJYu6XhslPM8FUNZwOOcpehIGccTZ/A=
 			</data>
 		</dict>
-		<key>Modules/EMBERPodFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gFaEJ4QL4iBkmuJsVI1QCPzozJ/qmU4/tsTaaQbpPes=
+			/RdB1Eg+8DNRAF4KEQg9sLwlfipxMJEa4LIni3+UbrI=
 			</data>
 		</dict>
-		<key>Modules/EMBERPodFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T3+BQpHFYAagpP3a3Ycx5ksYunqs1VFs3Nmanz0hbf8=
+			YhLyZ8UWu5SjffrUAbZkalp6QIAyyCrrWtaKBCTWohw=
 			</data>
 		</dict>
-		<key>Modules/EMBERPodFramework.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gFaEJ4QL4iBkmuJsVI1QCPzozJ/qmU4/tsTaaQbpPes=
+			/RdB1Eg+8DNRAF4KEQg9sLwlfipxMJEa4LIni3+UbrI=
 			</data>
 		</dict>
-		<key>Modules/EMBERPodFramework.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T3+BQpHFYAagpP3a3Ycx5ksYunqs1VFs3Nmanz0hbf8=
+			YhLyZ8UWu5SjffrUAbZkalp6QIAyyCrrWtaKBCTWohw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -129,7 +168,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6mI9tYae6F9x+xdG4gB839wkGuM9rX7vwyJA58HM9yg=
+			i7g8Se9HceFtQjz28r9SwSHuBT6iQY6A/dvE7M64jAQ=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/8o1-5Y-nAH-view-ASx-34-5u0.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W/afNz+E03imh7sRhYPKwYoBfWic/jxMU6aUS3gL1ss=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ddJfdGLOf71qSg4Wm0fwl+8/DeN5vQNNe/S+LaX3wyc=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/TriageCallOnOtherDeviceViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ixrPDUh/JlgfOTH0hGG36uLuMZMEhoFOc9Gvp93FV0M=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/TriageRequestViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9cqmcTMAGtogD3Dj0Ehi01Fww3TLPwzu5nMPFUwYeTs=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/VideoCallViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			awgaUTquGlZR8ElGtXbTesoULaPMpfN7aefC0qeQIOs=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/aNR-cm-Jf0-view-2VM-2D-MRb.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VqoSROBMX11ShAXAsslcV28CeBjScj4BtIBHLEzaOG0=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/rQE-5A-6km-view-V1N-cj-hQM.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y4QmZi2JaYx8b1MHbKwDEcJE0CSlg0ZI3TN6Bw9AOiM=
 			</data>
 		</dict>
 	</dict>

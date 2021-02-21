@@ -16,11 +16,6 @@ public class EMBERPod: NSObject {
         }
         return Singleton.instance
     }
-
-    @objc public func temp() {
-        print("hello wolrd")
-        print(EnvironmentConfiguration.sharedInstance.FirebaseDBName)
-    }
     
     @objc public func getNibFile() -> [Any]? {
         print("hello nib")
