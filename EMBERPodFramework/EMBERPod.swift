@@ -27,6 +27,10 @@ public class EMBERPod: NSObject {
         return Bundle.main.loadNibNamed("NewViewController", owner: self)
     }
     
+    @objc public func printString(value: String) {
+        print(value)
+    }
+    
     @objc public func login(loginParameters: [String: Any]) {
         rx_loginToUserAccount(parameters: loginParameters).asObservable().subscribe(onNext: { (response) in
             if let d = self.delegate {
