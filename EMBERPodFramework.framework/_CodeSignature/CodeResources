@@ -4,17 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		V2tsUwnRgdQu0HJgQADq86BDGCg=
+		</data>
 		<key>Environment.plist</key>
 		<data>
 		6Z76G7/Tm61dj5Po3pr0C12LX74=
 		</data>
 		<key>Headers/EMBERPod.swift</key>
 		<data>
-		O2kjDYp2YvBF7FAu6sK/oCkX5Lw=
+		cdRfjMIYB6O/SQf86mILY+wYRv0=
 		</data>
 		<key>Headers/EMBERPodFramework-Swift.h</key>
 		<data>
-		Np7+GcGHWacd/ASB19mZuYtjke0=
+		r/dAGGwjGDm6TjXVHfyEZau9sPE=
 		</data>
 		<key>Headers/EMBERPodFramework.h</key>
 		<data>
@@ -26,11 +30,11 @@
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		1sNfhslTrbmYOrCW4qvT8quk8/Y=
+		9gtSI0P9d4DVtpdvpAKrN8cqxyU=
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		1sNfhslTrbmYOrCW4qvT8quk8/Y=
+		9gtSI0P9d4DVtpdvpAKrN8cqxyU=
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dX9kuiAL9hXMe433ApaQYWTxDlQ=
+		/INgrcYc6CHKsg24ic/phqlsfj8=
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -46,7 +50,7 @@
 		</data>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		dX9kuiAL9hXMe433ApaQYWTxDlQ=
+		/INgrcYc6CHKsg24ic/phqlsfj8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hS9lUSlArvjbiaQo0hDIRxm0aJ0wTP8wu/t0IngrPB4=
+			0YGP9fRXQk/Za5nSv7ZMEPTsyXRkb8jjLJouk6cycNM=
 			</data>
 		</dict>
 		<key>Headers/EMBERPodFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HN6CQpu/xqSoG3wUuooPZ6/x18cLLiBXvbI9XhoBa00=
+			Kh86M6AG6uMTAvL1aTlhhNdMvAWPms+a8G8rGl6ovEk=
 			</data>
 		</dict>
 		<key>Headers/EMBERPodFramework.h</key>
@@ -119,14 +123,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjhYiGaq2yx8nMIauaPZlDH5hHD5dXXnxWFZGtto42w=
+			ChMkEDM5hXXcD3A2gfqAe3+ni1nVxK4EL6pocgwiEDY=
 			</data>
 		</dict>
 		<key>Modules/EMBERPodFramework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjhYiGaq2yx8nMIauaPZlDH5hHD5dXXnxWFZGtto42w=
+			ChMkEDM5hXXcD3A2gfqAe3+ni1nVxK4EL6pocgwiEDY=
 			</data>
 		</dict>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -140,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QJSR5DmO2IVKdCCxiefEm9GkWPn1+83Je6YFF8QD8mM=
+			1yXgvEIb0BtR5d9CpZvYs1IM1hxFvhNMoDDlEzisYG4=
 			</data>
 		</dict>
 		<key>Modules/EMBERPodFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -154,7 +158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QJSR5DmO2IVKdCCxiefEm9GkWPn1+83Je6YFF8QD8mM=
+			1yXgvEIb0BtR5d9CpZvYs1IM1hxFvhNMoDDlEzisYG4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

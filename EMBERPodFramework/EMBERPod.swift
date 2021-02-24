@@ -31,6 +31,10 @@ public class EMBERPod: NSObject {
         print(value)
     }
     
+    @objc public func newVersionTest() {
+        print("this version 0.1.12")
+    }
+    
     @objc public func login(loginParameters: [String: Any]) {
         rx_loginToUserAccount(parameters: loginParameters).asObservable().subscribe(onNext: { (response) in
             if let d = self.delegate {
